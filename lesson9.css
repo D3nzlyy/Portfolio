@@ -1,0 +1,67 @@
+body {
+    margin: 0pt;
+}
+
+.active, .Home, .Services, .About, .Works, .Blog, .Clients, .Contact {
+    flex-direction: row;
+    justify-content: flex-end;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-left: 50px;
+    color: white;
+    font-family: cursive;
+}
+.STARTUP {
+    justify-content: flex-start;
+}
+.center {
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column; 
+    font-size: larger;
+    flex-wrap: nowrap;
+    margin-top: 15%;
+}
+.Started {
+    font-size: larger;
+    border: white 1px solid;
+    
+}
+.Started:hover {
+    background: rgba(0, 0, 0, 0);
+	color: #ffffff;
+	box-shadow: inset 0 0 0 3px #6d6d6d;
+    height: 42px;
+	border: none;
+	color: #f2f2f2;
+	padding: 10px;
+	font-size: 18px;
+	border-radius: 5px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease; 
+
+}
+.header{
+    width: 100%;
+    /* height: 100px; */
+    background-color: aquamarine;
+    /*dsiplay:flex; */
+
+    background: url(images/1-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.work {
+    display: flex;
+    padding-left: 100px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.center{
+    color: white;
+    font-family: cursive ;
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(31, 16, 5);
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.parent{
+    background-color: rgb(58, 65, 41);
+    width: 1700px;
+    height: 1000px;
+}
+.child{
+    background-color: rgb(245, 229, 2);
+    width: 400px;
+    height: 1000px;
+}
+li{
+  font-size: 24px;  
+}
+ul{
+list-style-type: none;
+}
+.picture{
+    width: 100px;
+    height: 100px;
+}
+  
+

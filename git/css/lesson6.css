@@ -1,0 +1,93 @@
+body{
+    background-color: rgb(247, 235, 221);  
+}
+.one{
+    background-color: rgb(7, 30, 243);
+    width: 500px;
+    height: 70px;
+    margin: 0;
+}
+.one_2{
+    background-color: rgb(235, 0, 0);
+    width: 500px;
+    height: 70px;
+    margin: 0;
+}
+.one_3{
+    background-color: green;
+    width: 500px;
+    height: 70px;
+    margin: 0;
+}
+.n_1 {
+    width: 500px;
+    height: 70px;
+    float: left;
+    display: flex;
+}
+.n_2 {
+    background-color: red;
+    width: 166px;
+    height: 70px;
+}
+.n_3 {
+    background-color: green;
+    width: 166px;
+    height: 70px;
+}
+.n_4 {
+    background-color: blue;
+    width: 170px;
+    height: 70px;
+}
+.nn_2 {
+    width: 500px;
+    height: 140px;
+}
+.n_1_1 {
+    background-color: yellow;
+    width: 500px;
+    height: 140px;
+}
+.nn_3 {
+    width: 500px;
+    height: 70px;
+    float: left;
+    display: flex;
+}
+.n_2_1 {
+    background-color: rgb(56, 56, 56);
+    width: 250px;
+    height: 70px;
+}
+.n_2_2 {
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 70px;
+}
+.text {
+    background-color: rgb(153, 211, 146);
+    width: 530px;
+    height: 180px;
+    float: left;
+    display: flex;
+}
+.left{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border: rgb(153, 211, 146) solid 30px;
+}
+.midle {
+    background-color: green;
+    width: 120px;
+    height: 120px;
+    border: rgb(153, 211, 146) solid 30px;
+}
+.right {
+    background-color: blue;
+    width: 120px;
+    height: 120px;
+    border: rgb(153, 211, 146) solid 30px;
+}
+

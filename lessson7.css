@@ -1,0 +1,52 @@
+.parent{
+    background-color: black;
+    width: 700px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 40px;
+    transition:3s width;
+}
+li{
+    
+    color: rgb(255, 255, 255);
+    line-height: 50px;
+    font-size: 20px;
+    transition:3s color;
+    }
+    .mom {
+        background-color: black;
+        width: 1000px;
+        height: 200px;
+        border-radius: 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .Klee{
+        background-color: rgb(255, 255, 255);
+        width: 100px;
+        height: 130px;
+        transform: skew(20deg);
+        animation: skew 3s infinite;
+        transition: background-color 1s linear;
+        padding: 1px;
+    }
+        .Klee:hover{
+            width: 150px;
+            height: 150px;
+            background-color: #3F51B5;
+        }
+       .parent:hover{
+           width: 900px;
+       }
+
+       @keyframes skew{
+           0%{
+               transform: skewX(20deg);
+       }
+       100%{
+           transform: skewX(-20deg);
+       }
+    }

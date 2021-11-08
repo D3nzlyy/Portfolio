@@ -1,0 +1,48 @@
+h1 {
+    font-size: 60px;
+    font-family: fantasy;
+    color:rgb(33, 33, 223);
+    text-align: center;
+}
+body{ 
+    background:url(https://i.pinimg.com/originals/62/c1/b6/62c1b63e9af6929608c5436f65592ec2.jpg)
+
+}
+h2{
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(0, 24, 236);
+    text-align: center;
+}
+ul{
+    list-style-type: square;
+}
+li {
+    font-size: 25px;
+    font-family: cursive ;
+    text-align: center;
+}
+p {
+    font-size: 20px;
+    color: red;
+}
+hr {
+    border: snow;
+    color: snow;
+    background-color: snow;
+    height: 5px;
+}
+a{
+    padding: 2px;
+    color: black;
+    font-family: fantasy;
+    text-decoration: none;
+}
+strong{
+    font-size: 20px;
+    font-family: monospace;
+    color: red;
+    text-align: center;
+}
+
+

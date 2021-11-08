@@ -1,0 +1,17 @@
+h1{
+    text-align: center;
+}
+tr{
+text-align: center;
+}
+td{
+    text-align: center;
+   
+}
+table{
+    margin: 0 auto;
+    border: 3px double black;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background: linear-gradient(70deg, rgb(67, 56, 167),rgb(243, 88, 204))
+}
