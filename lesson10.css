@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: rgb(115, 115, 116);
+}
+.flag{
+    background-color: snow;
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.japan{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.flag2{
+    background-color: rgb(255, 255, 255);
+    width: 600px;
+    height: 300px;
+    margin: 20px;
+}
+.japan2{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+    position: relative;
+    top: 100px;
+    right: -250px;
+}
+.instagram{
+background-color: white;
+width: 600px;
+height: 600px;
+margin: 20px;
+}
+.fon{
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(#9108ec,#f52765,#e73701,#f8a333);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20%;
+}
+.fon2{
+width: 180px;
+height: 180px;
+background: linear-gradient(#9108ec,#f52765,#e73701,#f8a333);
+border-radius: 20%;
+border: 20px solid white;
+}
+
+
