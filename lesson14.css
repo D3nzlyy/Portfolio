@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+}
+.header{
+    width: 800px;
+    background-color: rgb(141, 141, 141);
+    display: flex;
+    justify-content: space-between;
+}
+.pink-square{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    margin: 10px;
+    border: 1p rgb rgb(253, 193, 203) solid;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:500px){
+    .header{
+        width: 400px;
+        flex-direction: column;
+        align-items: center;
+    }
+}
